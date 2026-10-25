@@ -1,0 +1,21 @@
+name: luad-drug
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - r-base=4.4
+  - python=3.11
+  - git
+  - r-pheatmap
+  - r-jsonlite
+  - bioconductor-org.hs.eg.db
+  - r-ggplot2
+  - bioconductor-clusterprofiler
+  - bioconductor-limma
+  - bioconductor-enrichplot
+  - bioconductor-geoquery
+  - bioconductor-deseq2
+  - r-data.table
+  - bioconductor-tcgabiolinks
+prefix: /home/lopa/miniforge3/envs/luad-drug
