@@ -59,3 +59,34 @@ cell line, dose, exposure time, and shared proliferation signatures.
 Docking scores are not proof of biological activity. Independent-cohort
 validation and experimental follow-up remain necessary before drawing
 strong conclusions.
+
+
+## Visual results
+
+### 1. TCGA-LUAD principal component analysis
+
+![PCA of matched tumor and normal samples](figures/DESeq2_paired_PCA.png)
+
+### 2. Differential expression
+
+![Paired DESeq2 volcano plot](figures/DESeq2_paired_volcano.png)
+
+### 3. Expression heatmap
+
+![Heatmap of top variable genes in matched samples](figures/DESeq2_paired_top_variable_heatmap.png)
+
+### 4. Enriched biological processes
+
+**Upregulated genes**
+
+![GO biological-process enrichment for upregulated genes](figures/GO_BP_upregulated_dotplot.png)
+
+**Downregulated genes**
+
+![GO biological-process enrichment for downregulated genes](figures/GO_BP_downregulated_dotplot.png)
+
+### 5. Drug-candidate prioritization
+
+![Top 10 LUAD drug-repurposing candidates](figures/LINCS_drug_candidate_ranking.png)
+
+The candidate scores are heuristic and hypothesis-generating; they do not estimate clinical efficacy.
