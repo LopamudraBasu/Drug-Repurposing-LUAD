@@ -15,6 +15,26 @@ candidate prioritization, and molecular docking.
 
 These findings are computational and hypothesis-generating. LINCS enrichment and docking scores do not establish drug efficacy, target engagement, or clinical benefit. Independent-cohort validation and experimental follow-up remain necessary.
 
+## Workflow
+
+```mermaid
+flowchart TD
+    A["TCGA-LUAD RNA-seq data<br/>GDC"] --> B["Sample and metadata QC"]
+    B --> C["Select matched tumor-normal pairs<br/>58 patients"]
+    C --> D["Paired differential expression<br/>DESeq2"]
+    D --> E["Gene-level results and<br/>volcano plot"]
+    D --> F["GO Biological Process<br/>enrichment and GSEA"]
+    D --> G["Build up/downregulated<br/>gene signatures"]
+    G --> H["LINCS L1000 perturbation<br/>signature screening via Enrichr"]
+    H --> I["Prioritize candidate compounds"]
+    I --> J["Palbociclib CDK6 redocking<br/>PDB: 5L2I"]
+    J --> K["Validate pose recovery<br/>RMSD"]
+    I --> L["Exploratory CDK4 cross-docking<br/>PDB: 9CSK"]
+    K --> M["Interpretation and limitations"]
+    L --> M
+    F --> M
+```
+
 ## Technology stack
 
 - **Languages:** R, Python, Bash
