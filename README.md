@@ -14,6 +14,17 @@ candidate prioritization, and molecular docking.
 - **Exploratory CDK4 docking:** Examined palbociclib in a CDK4 structure (PDB: 9CSK), obtaining a best docking score of −9.164 kcal/mol. This cross-docking result was not validated against an experimental palbociclib pose.
 
 These findings are computational and hypothesis-generating. LINCS enrichment and docking scores do not establish drug efficacy, target engagement, or clinical benefit. Independent-cohort validation and experimental follow-up remain necessary.
+
+## Technology stack
+
+- **Languages:** R, Python, Bash
+- **RNA-seq analysis:** DESeq2, TCGAbiolinks
+- **Pathway and gene-set enrichment:** clusterProfiler, Gene Ontology, GSEA
+- **Drug repurposing:** LINCS L1000 perturbation signatures, Enrichr-based exploratory screening, candidate prioritization
+- **Molecular docking:** AutoDock Vina, PDB structure inspection, redocking pose validation, RMSD analysis
+- **Data analysis and visualization:** pandas, Matplotlib, ggplot2
+- **Environment and version control:** Conda, Linux/WSL, Git, GitHub
+
 ## Objectives
 
 - Identify differentially expressed genes in LUAD.
