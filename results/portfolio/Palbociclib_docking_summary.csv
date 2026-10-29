@@ -1,0 +1,19 @@
+target,experiment,pose_rank,vina_affinity_kcal_mol,crystal_pose_rmsd_A,interpretation
+CDK6,Redocking validation,1,-10.64,0.646,Known ligand pose recovery test
+CDK6,Redocking validation,2,-10.25,1.34,Known ligand pose recovery test
+CDK6,Redocking validation,3,-9.167,6.952,Known ligand pose recovery test
+CDK6,Redocking validation,4,-8.986,9.738,Known ligand pose recovery test
+CDK6,Redocking validation,5,-8.664,3.836,Known ligand pose recovery test
+CDK6,Redocking validation,6,-8.385,9.58,Known ligand pose recovery test
+CDK6,Redocking validation,7,-8.228,10.1,Known ligand pose recovery test
+CDK6,Redocking validation,8,-8.125,3.025,Known ligand pose recovery test
+CDK6,Redocking validation,9,-8.113,10.065,Known ligand pose recovery test
+CDK4,Exploratory cross-docking,1,-9.164,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,2,-9.126,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,3,-9.085,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,4,-9.035,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,5,-8.855,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,6,-8.797,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,7,-8.698,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,8,-8.591,,No experimental palbociclib pose in this CDK4 structure
+CDK4,Exploratory cross-docking,9,-8.551,,No experimental palbociclib pose in this CDK4 structure
