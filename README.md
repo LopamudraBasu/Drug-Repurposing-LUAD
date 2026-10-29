@@ -4,6 +4,16 @@ An exploratory bioinformatics project integrating tumor-versus-normal
 RNA-seq analysis, pathway enrichment, drug perturbation signatures,
 candidate prioritization, and molecular docking.
 
+## Key findings
+
+- **Paired transcriptomic analysis:** Analyzed 58 patients with matched LUAD tumor and normal samples using DESeq2.
+- **Differential expression:** Identified 17,986 genes with adjusted *p* < 0.05; 2,897 were upregulated and 3,911 were downregulated at |log2 fold change| > 1.
+- **Pathway enrichment:** Observed enrichment of cell division, chromosome segregation, and DNA replication among upregulated genes, alongside circulation-, muscle-, and cilium-related processes among downregulated genes.
+- **Drug repurposing:** Screened LINCS L1000 perturbation signatures using an exploratory Enrichr-based workflow and prioritized candidate compounds for further investigation.
+- **Docking validation:** Recovered the crystallographic palbociclib pose in CDK6 (PDB: 5L2I), with a best docking score of −10.64 kcal/mol and a pose RMSD of 0.646 Å.
+- **Exploratory CDK4 docking:** Examined palbociclib in a CDK4 structure (PDB: 9CSK), obtaining a best docking score of −9.164 kcal/mol. This cross-docking result was not validated against an experimental palbociclib pose.
+
+These findings are computational and hypothesis-generating. LINCS enrichment and docking scores do not establish drug efficacy, target engagement, or clinical benefit. Independent-cohort validation and experimental follow-up remain necessary.
 ## Objectives
 
 - Identify differentially expressed genes in LUAD.
